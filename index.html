@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Land Bank GIS</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-sA+e2bDIPM3QvvXORFp1UztQPTaVb3D7o0EeXv7r00M="
+    crossorigin=""
+  />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="brand">Land Bank GIS</div>
+    <button id="logoutBtn" style="display:none;">Logout</button>
+  </nav>
+
+  <div id="loginPanel" class="login-panel">
+    <div class="login-container">
+      <h2>Department Login</h2>
+      <input type="email" id="email" placeholder="Email" required />
+      <input type="password" id="password" placeholder="Password" required />
+      <button id="loginBtn">Login</button>
+    </div>
+  </div>
+
+  <div id="mapPanel" style="display:none;">
+    <div id="map"></div>
+  </div>
+
+  <script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-oG3PmPZrT2ix0c7Fk4UQCZrLxFcz0y3u3OIl2EYwQGo="
+    crossorigin=""
+  ></script>
+  <script src="https://www.gstatic.com/firebasejs/9.21.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.21.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.21.0/firebase-firestore-compat.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
