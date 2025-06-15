@@ -1,9 +1,12 @@
 // === Firebase Config - Replace these values with your Firebase project config ===
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY_HERE",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  // Optional: storageBucket, messagingSenderId, appId can be added here
+  apiKey: "AIzaSyAK3oeVxsChvPDM03JPrv1q1vlblNDdNI0",
+  authDomain: "gismap-ae7fe.firebaseapp.com",
+  projectId: "gismap-ae7fe",
+  storageBucket: "gismap-ae7fe.firebasestorage.app",
+  messagingSenderId: "587836670520",
+  appId: "1:587836670520:web:62dd4d609f018424735ccd",
+  measurementId: "G-YV9WEC3PRQ"
 };
 
 // Initialize Firebase
